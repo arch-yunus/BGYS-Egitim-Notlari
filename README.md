@@ -4,9 +4,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/ISO/IEC-27001:2013/2022-blue.svg" alt="ISO 27001">
-  <img src="https://img.shields.io/badge/Status-Comprehensive-success.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Language-Turkish-red.svg" alt="Language">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/Yazar-Yunus%20Emre-orange.svg" alt="Author">
+  <img src="https://img.shields.io/badge/Sürüm-v2.0-blueviolet.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Türkçe-Eğitim-red.svg" alt="Language">
 </p>
 
 ---
@@ -23,7 +23,7 @@ BGYS eğitimi, üç ana sütun üzerine inşa edilmiştir:
 
 1.  **CIA Üçlüsü:** Gizlilik, Bütünlük ve Erişilebilirlik.
 2.  **Risk Temelli Yaklaşım:** Sadece "her şeyi" korumak değil, "önemli ve riskli olanı" korumak.
-3.  **PUKO Döngüsü:** Sürekli iyileştirme için Planla, Uygula, Kontrol Et ve Önlem Al.
+3.  **PUKO Döngüsü:** Sürekli iyileştirme için Planla, Uygula, Kontrol Et ve Önlem Al (PDCA).
 
 ---
 
@@ -33,61 +33,58 @@ BGYS eğitimi, üç ana sütun üzerine inşa edilmiştir:
 | :--- | :--- | :--- |
 | **[01. Temel Kavramlar](./modules/01-temel-kavramlar.md)** | Bilgi Güvenliği, CIA Üçlüsü, PUKO Döngüsü (Görsel Şemalı) | ✅ Aktif |
 | **[02. Risk Yönetimi](./modules/02-risk-yonetimi.md)** | Varlık Envanteri, Tehdit Analizi, Risk İşleme Akışı | ✅ Aktif |
-- **[03. Ek-A Kontrolleri](./modules/03-ek-a-kontrolleri.md):** 114 Kontrolün Domain Bazlı Analizi. ([Tam Liste Referansı](./modules/Annex-A-Tam-Liste.md)) ✨
-- **[04. Denetim & Yönetim](./modules/04-denetim-ve-yönetim.md)** | İç Denetim, YGG Toplantıları ve Düzeltici Faaliyetler | ✅ Aktif |
-- **[05. Politika & Doküman](./modules/05-politika-ve-dokümantasyon.md)** | Zorunlu Dokümanlar ve Temel Politika Taslakları | ✅ Aktif |
-- **[06. Sınava Hazırlık](./exam-prep/soru-bankasi.md)** | Sektörel Sınavlara Yönelik Soru-Cevap Setleri | ✅ Aktif |
+| **[03. Ek-A Kontrolleri](./modules/03-ek-a-kontrolleri.md)** | 114 Kontrolün Domain Bazlı Analizi. ([Tam Liste Referansı](./modules/Annex-A-Tam-Liste.md)) | ✅ Aktif |
+| **[04. Denetim & Yönetim](./modules/04-denetim-ve-yönetim.md)** | İç Denetim, YGG Toplantıları ve Düzeltici Faaliyetler | ✅ Aktif |
+| **[05. Politika & Doküman](./modules/05-politika-ve-dokümantasyon.md)** | Zorunlu Dokümanlar ve Temel Politika Taslakları | ✅ Aktif |
+| **[06. Sınava Hazırlık](./exam-prep/soru-bankasi.md)** | Sektörel Sınavlara Yönelik Soru-Cevap Setleri | ✅ Aktif |
+
+---
+
+## 🚧 Uygulamada Sık Yapılan Hatalar (Altın Kurallar)
+ISO 27001 yolculuğunda projelerin başarısız olmasına neden olan 3 yaygın hata:
+
+1.  **Kapsamı Çok Geniş Tutmak:** Tüm kurumu tek seferde dahil etmeye çalışmak yerine, kritik süreçlerle (örn: Bilgi İşlem veya Finans) başlamak daha sağlıklıdır.
+2.  **Sadece Dokümantasyona Odaklanmak:** BGYS "kağıt üzerinde" değil, "uygulamada" başarılı olur. Kanıtlanamayan hiçbir kontrol denetçiden geçemez.
+3.  **Üst Yönetim Desteğinin Eksikliği:** Üst yönetim kaynak (personel/bütçe) sağlamazsa sistem sürdürülebilir olmaz.
+
+---
+
+## 🔍 İç Denetim vs. Dış Denetim
+Aradaki farkları anlamak, sertifikasyon başarısı için kritiktir:
+
+| Özellik | İç Denetim (Madde 9.2) | Dış (Belgelendirme) Denetimi |
+| :--- | :--- | :--- |
+| **Kim Yapar?** | Şirket içi personel veya danışman. | Akredite belgelendirme kuruluşu (TÜRKAK vb.). |
+| **Amacı nedir?** | Eksikleri bulup düzeltmek (Ön hazırlık). | Standart uygunluğunu onaylayıp belge vermek. |
+| **Sonuç nedir?** | İç denetim raporu ve aksiyonlar. | ISO 27001 Sertifikası veya Takip Denetimi. |
 
 ---
 
 ## 🛣️ ISO 27001 Sertifikasyon Yol Haritası
-Belgelendirme sürecine girmeyi planlayan kurumlar için adım adım rehber:
-
-1.  **Gap Analizi:** Mevcut durum ile standart beklentileri arasındaki farkın tespiti. ([Risk Analizi Taslağı](./templates/risk-analizi-taslak.md)) 🧪
-2.  **Kapsam ve Politika:** BGYS sınırlarının çizilmesi ve üst yönetim taahhüdü.
-3.  **Risk Analizi:** Varlıkların tespiti ve risklerin derecelendirilmesi.
-4.  **Uygulama:** Seçilen kontrollerin (Ek-A) hayata geçirilmesi ve dokümantasyon.
-5.  **İç Denetim & YGG:** Sistemin kendi kendine test edilmesi ve yönetime raporlanması.
-6.  **Belgelendirme Denetimi:** Bağımsız bir kuruluş tarafından gerçekleştirilen 2 aşamalı denetim.
+1.  **Gap Analizi:** Mevcut durum tespiti. ([Risk Analizi Taslağı](./templates/risk-analizi-taslak.md)) 🧪
+2.  **Kapsam ve Politika:** BGYS sınırlarının çizilmesi ve taahhüt.
+3.  **Risk Analizi:** Varlık ve risk tespiti.
+4.  **Uygulama:** Ek-A kontrollerinin hayata geçirilmesi.
+5.  **İç Denetim & YGG:** Sistemin test edilmesi.
+6.  **Belgelendirme Denetimi:** Resmi sertifika süreci.
 
 ---
 
-## 👥 Bu Notlar Kimler İçin?
-- 🎓 **BT Yöneticileri ve Uzmanları:** Teknik kontrolleri operasyona entegre etmek isteyenler.
-- 🔍 **Denetçi Adayları:** ISO 27001 denetim mantığını ve soru tiplerini kavramak isteyenler.
-- 🛡️ **SOME/CERT Ekipleri:** Olay müdahale süreçlerini standartlara uyumlu hale getirmek isteyenler.
-- 👨‍💼 **Üst Yönetim:** Bilgi güvenliğinin kurumsal bir kültür haline gelmesini hedefleyen liderler.
+## 👤 Hazırlayan ve İletişim
+Bu eğitim portalı, bilgi güvenliği kültürünü yaygınlaştırmak amacıyla bizzat **Yunus Emre** tarafından tasarlanmış ve geliştirilmiştir. 
+
+- **Yazar:** Yunus Emre (@arch-yunus)
+- **Vizyon:** "Bilgi, sadece paylaşıldığında ve korunduğunda bir güçtür."
+- **İletişim:** Yeni soru setleri veya kurumsal talepler için Pull Request açabilir veya Issue üzerinden iletişime geçebilirsiniz.
 
 ---
 
-## 📂 Proje Navigasyonu (Dosya Yapısı)
-
-```text
-BGYS-Egitim-Notlari/
-├── assets/                # Görsel materyaller ve bannerlar
-├── exam-prep/             # Sınava hazırlık notları ve soru bankası
-├── modules/               # 01-05 arası detaylı eğitim modülleri
-├── glossary-terimler.md    # Teknik terimler ve kısaltmalar sözlüğü
-├── readiness-checklist.md  # Denetim öncesi öz-değerlendirme listesi
-└── README.md              # Bu ana giriş kapısı
-```
+## ⭐️ Topluluk ve Destek
+Eğer bu proje size faydalı olduysa, daha fazla kişinin faydalanabilmesi için:
+- Repoyu **Star**layın. ⭐
+- Meslektaşlarınızla **Paylaşın**. 🔗
+- Gelişime katkı sağlamak için **Fork**layın. 🚜
 
 ---
-
-## 🛠️ Araçlar ve Hızlı Erişim
-- **[Hazırlık Check-listi](./readiness-checklist.md):** "Denetçiden önce ben hazırım!" demek için kullanın.
-- **[Terimler Sözlüğü](./glossary-terimler.md):** Kısaltmalar dünyasında kaybolmayın (SoA, RTP, İEA...).
-- **[Diyagramlar:](./modules/01-temel-kavramlar.md)** Mermaid.js ile hazırlanmış süreç akış şemaları modüllerde sizi bekliyor.
-
----
-
-## 🤝 Katkıda Bulunma ve Destek
-Bu repo bir "Living Document" (Yaşayan Doküman) olarak tasarlanmıştır. Her türlü düzeltme, ek bilgi veya yeni soru setleri için PR'larınızı bekliyoruz.
-
-1.  Fork'layın.
-2.  Branch açın (`feature/yeniGelistirme`).
-3.  Komit edin ve PR gönderin.
-
----
-**Lisans:** MIT
-**Hazırlayan:** [BGYS Eğitim Notları Geliştirici Ekibi]
+**Lisans:** [MIT](./LICENSE)  
+**Hazırlayan:** Yunus Emre
