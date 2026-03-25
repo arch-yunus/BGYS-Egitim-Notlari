@@ -1,48 +1,48 @@
-# ⚖️ Modül 02: Risk Yönetimi
+# ⚖️ Modül 02: Bilgi Güvenliği Risk Yönetimi
 
-Risk yönetimi, ISO 27001'in kalbidir. Sistemin neyi, neden ve nasıl koruduğunu belirleyen süreçtir.
+Risk yönetimi, ISO 27001 standardının metodolojik merkezidir. Kurumsal varlıkların korunması için gerekli olan kontrol matrisini belirleyen dinamik bir süreçtir.
 
-## 🛡️ Risk Nedir?
-**Risk = [Tehdit x Açıklık (Zafiyet)] x Etki**
+## 🛡️ Risk Kavramı ve Formülasyonu
+**Risk = [Tehdit x Zafiyet (Açıklık)] x Etki (Impact)**
 
-Bir tehdit, bir varlığın zayıflığını (zafiyetini) kullanarak o varlığa zarar verme ihtimalini ifade eder.
+Bir tehdit unsurunun, belirli bir varlık üzerindeki yapısal zayıflığı (zafiyeti) kullanarak kurumsal hedeflere zarar verme potansiyelini ifade eder.
 
 ---
 
-## 📅 Risk Yönetimi Süreci
+## 📅 Risk Yönetim Metodolojisi
 
 ```mermaid
 graph LR
-    A[Varlık Teşhisi] --> B[Tehdit & Zafiyet Analizi]
-    B --> C[Risk Değerlendirme]
-    C --> D{Kabul Edilebilir mi?}
-    D -- Hayır --> E[Risk İşleme - Azaltma, Paylaşım, Kaçınma]
+    A[Varlık Envanteri] --> B[Tehdit & Zafiyet Analizi]
+    B --> C[Risk Değerlendirmesi]
+    C --> D{Kabul Kriteri}
+    D -- Hayır --> E[Risk İşleme Stratejileri]
     D -- Evet --> F[Riskin Kabulü]
     E --> G[Artık Risk Analizi]
     G --> F
 ```
 
-1.  **Varlık Teşhisi:** Kuruluşun sahip olduğu bilgi varlıkları tespiti (Donanım, Yazılım, Veri, Personel).
-2.  **Tehdit ve Zafiyet Analizi:** Varlıkları tehdit eden unsurların ve varlıklardaki zayıflıkların belirlenmesi.
-3.  **Risk Değerlendirmesi:** Riskin olasılığı ve olası etkisinin hesaplanması (Genellikle 1-5 veya 1-3 skalası kullanılır).
-4.  **Risk İşleme (Treatment):** Belirlenen riskler için aksiyon alınması.
+1.  **Varlık Envanter Yönetimi:** Kurumsal veri, donanım, yazılım ve insan kaynağının stratejik önem derecesine göre tanımlanması.
+2.  **Tehdit ve Zafiyet Analizi:** Olası tehdit vektörlerinin ve varlıklardaki zayıf noktaların analitik tespiti.
+3.  **Risk Derecelendirme:** Riskin gerçekleşme olasılığı (Probability) ve olası operasyonel etkisi (Impact) üzerinden sayısal skorlama.
+4.  **Risk İşleme (Risk Treatment):** Belirlenen riskler için uygulanacak aksiyon planlarının kurgulanması.
 
 ---
 
-## 🛠️ Risk İşleme Seçenekleri
-ISO 27001'de dört temel risk işleme seçeneği bulunur:
+## 🛠️ Stratejik Risk İşleme Seçenekleri
+ISO 27001 kapsamında dört temel risk işleme yaklaşımı benimsenir:
 
-| Seçenek | Açıklama |
+| Strateji | Operasyonel Açıklama |
 | :--- | :--- |
-| **Risk Azaltma (Migration)** | Kontrol uygulayarak riski kabul edilebilir seviyeye indirmek (örn: Güvenlik duvarı kurmak). |
-| **Risk Kaçınma (Avoidance)** | Riski oluşturan faaliyetten vazgeçmek (örn: Tehlikeli bir servisi kapatmak). |
-| **Risk Paylaşımı (Transfer)** | Riskin etkisini başkasına devretmek (örn: Siber sigorta yaptırmak). |
-| **Risk Kabulü (Acceptance)** | Riski olduğu gibi kabul etmek (Düşük riskler için geçerlidir). |
+| **Risk Azaltma (Migration / Mitigation)** | Uygun kontrollerle riski kabul edilebilir seviyeye indirmek (örn: Firewall/WAF entegrasyonu). |
+| **Risk Kaçınma (Avoidance)** | Riski tetikleyen faaliyetin veya varlığın devre dışı bırakılması (örn: Desteklenmeyen bir servisi durdurmak). |
+| **Risk Paylaşımı (Transfer)** | Finansal veya operasyonel yükün dış taraflara devri (örn: Siber Güvenlik Sigortası). |
+| **Risk Kabulü (Acceptance)** | Riskin organizasyonel limitler dahilinde olduğu kabul edilerek mevcut durumun sürdürülmesi. |
 
 ---
 
 ## 📜 Uygulanabilirlik Bildirgesi (SoA)
-Risk analizi sonucunda hangi Ek-A kontrollerinin seçildiği ve neden seçildiği **Uygulanabilirlik Bildirgesi (SOA)** dokümanında raporlanır. Seçilmeyen kontrollerin neden seçilmediği (uygulanabilir olmadığı) da burada açıklanmalıdır.
+Risk işleme planının bir çıktısı olarak hangi Ek-A kontrollerinin seçildiği ve gerekçeleri **Uygulanabilirlik Bildirgesi (Statement of Applicability)** dokümanında resmileştirilir.
 
 ---
-**[Geri Dön - README](../README.md)**
+**[Ana Sayfa - README](../README.md)**

@@ -1,51 +1,51 @@
-# 📘 Modül 01: Temel Kavramlar
+# 📘 Modül 01: Bilgi Güvenliği Temel Prensipleri
 
-Bu modül, Bilgi Güvenliği Yönetim Sistemi'nin (BGYS) temel taşlarını ve ISO 27001 standardının ana felsefesini kapsar.
+Bu modül, Bilgi Güvenliği Yönetim Sistemi'nin (BGYS) kurumsal temellerini ve ISO 27001 standardının metodolojik felsefesini analiz eder.
 
-## 🛡️ Bilgi Güvenliği Nedir?
-Bilgi güvenliği; bilgiyi tehditlerden korumak, iş sürekliliğini sağlamak, iş kayıplarını en aza indirmek ve yatırımların geri dönüşünü ve iş fırsatlarını maksimize etmek amacıyla yapılan faaliyetlerdir.
+## 🛡️ Stratejik Bilgi Güvenliği Yaklaşımı
+Bilgi güvenliği; kurumsal verileri tehdit matrisinden korumak, iş sürekliliğini teminat altına almak ve finansal/operasyonel riskleri asgariye indirmek amacıyla yürütülen stratejik faaliyetler bütünüdür.
 
-### 🏛️ CIA Üçlüsü (Temel Direkler)
-Bilgi güvenliği üç ana unsurun korunması üzerine inşa edilir:
+### 🏛️ CIA Triad (Temel Direkler)
+Bilgi güvenliği mimarisi üç ana sütun üzerine inşa edilir:
 
-1.  **Gizlilik (Confidentiality):** Bilginin sadece yetkili kişilerce erişilebilir olması.
-    *   *Örnek:* Veri şifreleme, erişim kontrolleri.
-2.  **Bütünlük (Integrity):** Bilginin doğruluğunun ve tamlığının korunması.
-    *   *Örnek:* Hash (özet) algoritmaları, dijital imzalar.
-3.  **Erişilebilirlik (Availability):** Bilginin ve sistemlerin ihtiyaç duyulduğunda yetkili kullanıcılara hazır olması.
-    *   *Örnek:* Yedekleme, yüksek kullanılabilirlik (HA), DDoS koruması.
+1.  **Gizlilik (Confidentiality):** Verinin yalnızca yetkilendirilmiş paydaşlar tarafından erişilebilir olması.
+    *   *Uygulama:* Kriptografik yöntemler, Granüler Erişim Kontrolleri.
+2.  **Bütünlük (Integrity):** Verinin iletim ve saklama süreçlerinde yetkisiz tahrifata uğramadan, doğruluk ve tamlığının korunması.
+    *   *Uygulama:* Dijital İmzalar, Hash Fonksiyonları.
+3.  **Erişilebilirlik (Availability):** Sistemlerin ve verilerin ihtiyaç duyulduğunda yetkili kullanıcılar için kesintisiz hazır bulunması.
+    *   *Uygulama:* Yüksek Kullanılabilirlik (HA), Felaketten Kurtarma (DR) ve DDoS Tahribat Önleme.
 
 ---
 
-## 🔄 BGYS Yaşam Döngüsü (PUKO Modeli)
-ISO 27001, sürekli iyileştirme için **PUKO (Planla - Uygula - Kontrol Et - Önlem Al)** döngüsünü benimser:
+## 🔄 BGYS Yaşam Döngüsü (PUKO/PDCA Modeli)
+ISO 27001, sürekli gelişim vizyonu ile **Planla - Uygula - Kontrol Et - Önlem Al** döngüsünü temel alır:
 
 ```mermaid
 graph TD
-    A[Planla - Kapsam, Politika, Risk Analizi] --> B[Uygula - Kontroller, Eğitim, İşletim]
-    B --> C[Kontrol Et - İzleme, İç Denetim, YGG]
-    C --> D[Önlem Al - Düzeltici Faaliyetler, İyileştirme]
+    A[Planla - Bağlam ve Risk Analizi] --> B[Uygula - Kontrol İmpelentasyonu]
+    B --> C[Kontrol Et - İzleme ve İç Tetkik]
+    C --> D[Önlem Al - Sürekli İyileştirme]
     D --> A
 ```
 
-| Faz | Açıklama |
+| Faz | Kurumsal Faaliyet |
 | :--- | :--- |
-| **Planla** | Kapsamın belirlenmesi, risk değerlendirmesi ve politika oluşturma. |
-| **Uygula** | Kontrollerin hayata geçirilmesi, risk işleme planının uygulanması. |
-| **Kontrol Et** | Performansın ölçülmesi, iç denetimler ve izleme faaliyetleri. |
-| **Önlem Al** | Uygunsuzlukların giderilmesi, BGYS'nin sürekli iyileştirilmesi. |
+| **Planla** | Kapsam tanımı, risk metodolojisi ve politika setlerinin oluşturulması. |
+| **Uygula** | Kontrollerin operasyona entegrasyonu ve farkındalık eğitimleri. |
+| **Kontrol Et** | Performans metriklerinin ölçülmesi ve bağımsız iç tetkikler. |
+| **Önlem Al** | Uygunsuzluk yönetimi ve BGYS'nin dinamik optimizasyonu. |
 
 ---
 
-## 🏛️ ISO 27001 Standart Yapısı
-Standardın ana maddeleri şunlardır:
-- **Madde 4:** Kuruluşun Bağlamı
-- **Madde 5:** Liderlik
-- **Madde 6:** Planlama (Risklerin Belirlenmesi)
-- **Madde 7:** Destek
-- **Madde 8:** İşletim
-- **Madde 9:** Performans Değerlendirme
-- **Madde 10:** İyileştirme
+## 🏛️ ISO 27001 Regülatif Standart Yapısı
+Standardın ana maddeleri kurumsal uyum için zorunluluk arz eder:
+- **Madde 4:** Kuruluşun Bağlamı (İç ve Dış Hususlar)
+- **Madde 5:** Liderlik ve Taahhüt
+- **Madde 6:** Planlama (Risk ve Fırsat Yönetimi)
+- **Madde 7:** Destek ve Kaynak Yönetimi
+- **Madde 8:** İşletim ve Kontrol
+- **Madde 9:** Performans Değerlendirme (İzleme ve Ölçme)
+- **Madde 10:** İyileştirme (Düzeltici Faaliyetler)
 
 ---
-**[Geri Dön - README](../README.md)**
+**[Ana Sayfa - README](../README.md)**

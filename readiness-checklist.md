@@ -1,40 +1,40 @@
-# ✅ ISO 27001 Denetim Hazırlık Kontrol Listesi (Checklist)
+# ✅ ISO 27001 Kurumsal Uyum ve Denetim Hazırlık Listesi
 
-Bu liste, bir kurumun ISO 27001 dış denetimine girmeden önce tamamlamış olması gereken kritik maddeleri içerir.
-
----
-
-## 🏛️ Yönetimsel Hazırlık (Liderlik & Bağlam)
-- [ ] BGYS Kapsam dokümanı hazır mı? (Lokasyon, departman, sistem sınırları)
-- [ ] Bilgi Güvenliği Politikası üst yönetim tarafından onaylandı mı?
-- [ ] Bilgi güvenliği hedefleri belirlendi ve ölçülebilir mi?
-- [ ] Organizasyonel roller ve sorumluluklar (BGYS Sorumlusu vb.) atandı mı?
-
-## ⚖️ Risk Yönetimi
-- [ ] Risk değerlendirme metodolojisi yazılı hale getirildi mi?
-- [ ] Varlık envanteri (Donanım, yazılım, veri, insan) oluşturuldu mu?
-- [ ] Risk analizi yapıldı ve risk işleme planı (RTP) hazır mı?
-- [ ] **Uygulanabilirlik Bildirgesi (SoA)** güncel ve onaylı mı?
-
-## 📝 Dokümantasyon ve Kayıtlar
-- [ ] Zorunlu prosedürler (Erişim, Olay Müdahale, Değişim vb.) yazıldı mı?
-- [ ] Personel eğitim kayıtları ve farkındalık testleri mevcut mu?
-- [ ] Tedarikçi gizlilik sözleşmeleri (NDA) imzalandı mı?
-- [ ] Log kayıtları (A.12.4) en az 1-2 ay geriye dönük incelenebilir durumda mı?
-
-## 🔍 Denetim ve Gelişim
-- [ ] En az bir adet **İç Denetim** gerçekleştirildi mi?
-- [ ] İç denetim bulguları için düzeltici faaliyet raporları açıldı mı?
-- [ ] Üst yönetim ile en az bir adet **YGG Toplantısı** yapıldı mı?
-- [ ] Sürekli iyileştirme kanıtları (Kritik başarı göstergeleri) takip ediliyor mu?
+Bu kontrol listesi, kurumların ISO/IEC 27001 dış denetim (Sertifikasyon) süreçleri öncesinde metodolojik bir öz-değerlendirme yapabilmeleri için tasarlanmıştır.
 
 ---
 
-## 🛠️ Teknik Hazırlıklar (Hızlı Kontrol)
-- [ ] Antivirüs sistemleri tüm uç noktalarda yüklü ve güncel mi?
-- [ ] Yedekleme planı var mı ve geri dönüş testleri yapıldı mı?
-- [ ] Sunucu odası / Arşiv odası fiziksel güvenliği (Kilit, Yangın, Isı) yeterli mi?
-- [ ] Personel bilgisayarlarında yetkisiz admin hakları kaldırıldı mı?
+## 🏛️ Yönetimsel ve Stratejik Hazırlık
+- [ ] **BGYS Kapsamı:** Sistemin fiziksel, mantıksal ve kurumsal sınırları (Madde 4.3) kesinleştirildi mi?
+- [ ] **Üst Yönetim Taahhüdü:** Bilgi güvenliği politikası ve stratejik hedefler yönetim tarafından onaylandı mı?
+- [ ] **Organizasyonel Yapı:** BGYS ekibi, sorumlular ve iletişim matrisi resmileştirildi mi?
+- [ ] **Kaynak Tahsisi:** Sistem için gerekli insan kaynağı, bütçe ve teknolojik altyapı sağlandı mı?
+
+## ⚖️ Metodolojik Risk Yönetimi
+- [ ] **Risk Metodolojisi:** Risklerin derecelendirilme kuralları yazılı bir prosedür haline getirildi mi?
+- [ ] **Varlık Envanteri:** Veri, donanım ve yazılım varlıklarını içeren güncel bir envanter mevcut mu?
+- [ ] **Risk Analizi:** Tehdit ve zafiyet analizi sonucunda Risk İşleme Planı (RTP) dokümante edildi mi?
+- [ ] **SoA Bildirgesi:** Uygulanabilirlik Bildirgesi (Statement of Applicability) güncel versiyonuyla onaylı mı?
+
+## 📂 Dokümantasyon ve Operasyonel Kayıtlar
+- [ ] **Yazılı Prosedürler:** Erişim yönetimi, yedekleme, olay müdahale ve değişim yönetimi gibi ana süreçler yazılı mı?
+- [ ] **Eğitim ve Farkındalık:** Personel eğitim kayıtları, sınav sonuçları ve sosyal mühendislik testi raporları mevcut mu?
+- [ ] **Tedarikçi İlişkileri:** Üçüncü taraflarla yapılan tüm sözleşmelere bilgi güvenliği ekleri dahil edildi mi?
+- [ ] **Log Yönetimi:** Kritik sistemlerin olay kayıtları (A.12.4) standartlara uygun şekilde tutuluyor ve izleniyor mu?
+
+## 🔍 Tetkik, Analiz ve İyileştirme
+- [ ] **İç Tetkik:** Bağımsız bir iç tetkik süreci tamamlanarak raporlandı mı?
+- [ ] **Bulgu Yönetimi:** İç tetkik bulguları için "Düzeltici Faaliyetler" (DF) başlatıldı ve takip ediliyor mu?
+- [ ] **YGG Toplantısı:** Üst yönetim katılımıyla Yönetimin Gözden Geçirmesi toplantısı gerçekleştirildi mi?
+- [ ] **KPI Takibi:** Bilgi güvenliği performans hedeflerine ulaşılma durumu sayısal verilerle analiz edildi mi?
 
 ---
-**[Geri Dön - README](./README.md)**
+
+## 🛠️ Teknik Standartların Doğrulanması
+- [ ] **EndPoint Güvenliği:** Antivirüs ve EDR/XDR sistemleri tüm varlıklarda aktif ve merkezi izleniyor mu?
+- [ ] **Business Continuity:** Yedekleme planı test edildi mi ve "Geri Dönüş" (Restore) başarısı kanıtlandı mı?
+- [ ] **Fiziksel Güvenlik:** İklimlendirme, yangın algılama ve biyometrik erişim sistemlerinin periyodik bakımları yapıldı mı?
+- [ ] **Erişim Sınırlandırma:** Personel bilgisayarlarındaki lokal yönetici (Local Admin) hakları kısıtlandı mı?
+
+---
+**[Ana Sayfa - README](./README.md)**

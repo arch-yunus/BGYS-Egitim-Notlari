@@ -1,40 +1,40 @@
-# 🔍 Modül 04: Denetim ve Yönetim Gözden Geçirme
+# 🔍 Modül 04: Bilgi Güvenliği Tetkiki ve Yönetim Gözden Geçirme
 
-BGYS'nin başarısı, sistemin sürekli olarak denetlenmesi ve üst yönetim tarafından değerlendirilmesine bağlıdır.
+BGYS'nin kurumsal olgunluğu, sistemin performansının periyodik olarak incelenmesi ve üst yönetim tarafından stratejik olarak değerlendirilmesine bağlıdır.
 
-## 📏 1. İç Denetim (Madde 9.2)
-Kuruluş, BGYS'nin standart şartlarına ve kendi planlamasına uygunluğunu doğrulamak için planlı aralıklarla iç denetim gerçekleştirmelidir.
+## 📏 1. İç Tetkik Metodolojisi (Madde 9.2)
+Kuruluş, BGYS'nin standart gerekliliklerine ve kendi operasyonel kurallarına uygunluğunu doğrulamak amacıyla planlı aralıklarla iç tetkik süreci yürütmelidir.
 
-### 📝 İç Denetim Adımları
-1.  **Denetim Programı:** Denetimlerin sıklığı, yöntemleri ve sorumlulukları belirlenir.
-2.  **Denetçi Seçimi:** Denetçiler kendi işlerini denetlememeli, tarafsız olmalıdır.
-3.  **Raporlama:** Denetim sonuçları ilgili yönetime raporlanmalıdır.
-4.  **Takip:** Tespit edilen uygunsuzluklar için düzeltici faaliyetler başlatılmalıdır.
+### 📝 Tetkik Süreç Adımları
+1.  **Tetkik Programı:** Yıllık tetkik planının risk dereceleri göz önünde bulundurularak kurgulanması.
+2.  **Bağımsızlık İlkesi:** Tetkikçilerin kendi operasyonel alanlarını denetlemesinin engellenerek tarafsızlığın sağlanması.
+3.  **Bulgu Raporlama:** Tespit edilen uygunsuzlukların (Majör/Minör) ilgili yönetim seviyelerine formel raporlanması.
+4.  **Takip Tetkiki:** Tespit edilen her bir bulgu için başlatılan Düzeltici Faaliyetlerin (DF) etkinlik kontrolü.
 
 ---
 
 ## 📈 2. Yönetimin Gözden Geçirmesi - YGG (Madde 9.3)
-Üst yönetim, BGYS'nin uygunluğunu, yeterliliğini ve etkinliğini değerlendirmek için sistemi yılda en az bir kez gözden geçirmelidir.
+Üst yönetim, BGYS'nin kurumsal vizyona uygunluğunu ve etkinliğini teyit etmek amacıyla sistem verilerini yılda en az bir kez değerlendirmelidir.
 
-### 📥 YGG Girdileri
-- Önceki YGG kararlarının durumu.
-- İç ve dış hususlardaki değişiklikler.
-- Bilgi güvenliği performansı (Denetim sonuçları, risk analizi durumu, olaylar).
-- İlgili taraflardan gelen geri bildirimler.
+### 📥 Stratejik YGG Girdileri
+- Önceki YGG oturumlarında alınan kararların gerçekleşme durumu.
+- Kurumsal yapıdaki veya dış çevredeki (Yasal/Politik) değişiklikler.
+- Güvenlik performans metrikleri (Tetkik sonuçları, olay sayıları, risk analizi çıktıları).
+- Paydaşlardan gelen geri bildirimler (Müşteri, Tedarikçi, Denetleyici Kurumlar).
 
-### 📤 YGG Çıktıları
-- Sürekli iyileştirme fırsatlarına dair kararlar.
-- BGYS'de değişiklik yapma ihtiyacı.
-- Kaynak ihtiyaçları (Personel, bütçe, teknoloji).
-
----
-
-## 🛠️ 3. Düzeltici Faaliyetler (Madde 10.1)
-Bir uygunsuzluk ortaya çıktığında (denetim hatası, güvenlik ihlali vb.):
-1.  **Tepki Ver:** Uygunsuzluğu kontrol altına al ve düzelt.
-2.  **Kök Neden Analizi:** Uygunsuzluğun nedenini araştır (Neden oldu? Başka yerde olabilir mi?).
-3.  **Aksiyon Al:** Tekrarını önlemek için gerekli değişikliği yap.
-4.  **Etkinlik Kontrolü:** Alınan aksiyonun işe yarayıp yaramadığını doğrula.
+### 📤 YGG Karar Çıktıları
+- Sistemin sürekli iyileştirilmesi için aksiyon kararları.
+- BGYS mimarisinde yapılması gereken stratejik değişiklikler.
+- İnsan kaynağı ve bütçesel gereksinimlerin tahsisi.
 
 ---
-**[Geri Dön - README](../README.md)**
+
+## 🛠️ 3. Uygunsuzluk ve Düzeltici Faaliyet Yönetimi (Madde 10.1)
+Bir uygunsuzluk tespiti halinde (Tetkik bulgusu, veri sızıntısı vb.) şu iş akışı izlenir:
+1.  **İvedilikle Müdahale:** Uygunsuzluğun kontrol altına alınması ve etkisinin sınırlandırılması.
+2.  **Kök Neden Analizi (Root Cause Analysis):** "Neden" sorusu ile hatanın kaynağına (süreç, teknoloji, insan) inilmesi.
+3.  **Düzeltici Aksiyon:** Uygunsuzluğun tekrarlanmasını önleyecek yapısal değişikliğin implementasyonu.
+4.  **Doğrulama:** Alınan aksiyonun başarısının belirli bir izleme süresi sonunda onaylanması.
+
+---
+**[Ana Sayfa - README](../README.md)**

@@ -1,26 +1,26 @@
-# 🤝 Katkıda Bulunma Rehberi
+# 🤝 Katkıda Bulunma ve Ekosistem Yönetimi
 
-Bu proje, ISO 27001 Bilgi Güvenliği Yönetim Sistemi konusunda Türkçe kaynak eksikliğini gidermek amacıyla oluşturulmuş bir eğitim portalıdır. Katkılarınızla bu portalı daha değerli hale getirebilirsiniz!
+Bu platform, ISO/IEC 27001 Bilgi Güvenliği Yönetim Sistemi konusundaki kurumsal bilgi birikimini artırmak amacıyla Bahattin Yunus Çetin tarafından kurgulanmış bir projedir. Profesyonel katkılarınız, portalın akademik ve teknik derinliğini artıracaktır.
 
-## 🚀 Nasıl Katkı Sağlarım?
+## 🚀 Katkı Sağlama Protokolü
 
-1.  **Hata Raporlama:** Dokümanlarda gördüğünüz yanlış bilgileri veya imla hatalarını "Issue" açarak bildirebilirsiniz.
-2.  **Yeni İçerik Ekleme:** 
-    - Eksik olan alt kontroller hakkında notlar ekleyebilirsiniz.
-    - Soru bankasına yeni soru setleri ekleyebilirsiniz.
-    - Gerçek hayat senaryoları ve vaka analizleri (Case Studies) paylaşabilirsiniz.
-3.  **Görselleştirme:** Süreçleri anlatan yeni Mermaid diyagramları veya grafikler önerebilirsiniz.
+1.  **Analitik Raporlama:** Dokümantasyonda tespit edilen teknik uyumsuzluklar veya metodolojik eksiklikler için "Issue" açabilirsiniz.
+2.  **Yeni İçerik Entegrasyonu:** 
+    - Ek-A kontrollerine yönelik sektörel uygulama örnekleri ekleyebilirsiniz.
+    - Sınav hazırlık setini yeni tip sorularla genişletebilirsiniz.
+    - Kurumsal vaka analizleri (Case Studies) önerilerinde bulunabilirsiniz.
+3.  **Görselleştirme:** Karmaşık süreçleri betimleyen Mermaid.js diyagramları veya infografik tasarımlar önerebilirsiniz.
 
-## 🛠️ Pull Request Süreci
+## 🛠️ Pull Request (PR) Süreci
 
-1.  Projeyi Fork'layın.
-2.  Yeni bir branch oluşturun (`git checkout -b feature/yeniNotlar`).
-3.  Değişikliklerinizi yapın ve anlamlı komit mesajları yazın.
-4.  Branch'inizi pushlayın ve bir Pull Request açın.
+1.  Repoyu kendi alanınıza Fork'layın.
+2.  Yeni bir teknik branch oluşturun (`git checkout -b feature/yeniNotlar`).
+3.  Değişikliklerinizi akademik bir dille ve anlamlı komit mesajlarıyla tamamlayın.
+4.  Branch'inizi pushlayarak projeye bir "Pull Request" iletin.
 
-## 📏 Yazım Kuralları
-- Dosyaların **UTF-8** kodlamasında olduğundan emin olun.
-- Markdown yapısını bozmamaya özen gösterin.
-- Eklediğiniz bilgilerin ISO 27001:2013 veya 2022 standartlarıyla uyumlu olmasına dikkat edin.
+## 📏 Yazım ve Kalite Standartları
+- Tüm dosyaların **UTF-8** kodlama standardında tutulması zorunludur.
+- Metinlerde kurumsal, akademik ve profesyonel bir terminoloji kullanılmalıdır.
+- İçeriklerin güncel ISO/IEC 27001 versiyonları ve yasal regülasyonlar (KVKK vb.) ile uyumlu olması esastır.
 
-Desteğiniz için teşekkürler! 🛡️
+Desteğiniz ve profesyonel katkılarınız için teşekkürler. 🛡️
